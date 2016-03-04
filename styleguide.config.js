@@ -6,6 +6,7 @@ module.exports = {
         test: /\.js$/,
         // Affect only your project’s files
         include: __dirname,
+	exclude: /node_modules/,
         // Babel loader will use your project’s .babelrc
         loader: 'babel'
       }
